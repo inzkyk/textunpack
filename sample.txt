@@ -1,0 +1,9 @@
+#+EXPORT_BEGIN foo.txt
+This is foo.
+
+#+EXPORT_END foo.txt
+
+#+EXPORT_BEGIN bar.txt
+This is bar.
+
+#+EXPORT_END bar.txt

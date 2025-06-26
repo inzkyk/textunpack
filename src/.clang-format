@@ -1,0 +1,26 @@
+BasedOnStyle: Microsoft
+LineEnding: LF
+ColumnLimit: 118
+AlignAfterOpenBracket: BlockIndent
+AlignEscapedNewlines: Left
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeTernaryOperators: false
+IndentExternBlock: NoIndent
+PackConstructorInitializers: Never
+BraceWrapping:
+  AfterUnion: true
+StatementMacros:
+  - ix_DEFINE_DESTROY
+  - ix_DISABLE_CLANG_WARNING_BEGIN
+  - ix_DISABLE_CLANG_WARNING_END
+  - ix_DISABLE_CLANG_WARNING
+  - ix_DISABLE_GCC_WARNING_BEGIN
+  - ix_DISABLE_GCC_WARNING_END
+  - ix_DISABLE_GCC_WARNING
+  - ix_DISABLE_MSVC_WARNING_BEGIN
+  - ix_DISABLE_MSVC_WARNING_END
+  - ix_DISABLE_MSVC_WARNING
