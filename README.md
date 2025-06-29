@@ -47,13 +47,13 @@ This is bar.
 全てのソースコードを一つにまとめた `amalgam.cpp` を用意してあるので、次のコマンドでビルドできます:
 
 ```bash
-clang++ .\amalgam.cpp -o textunpack.exe -O3 -std=c++17
+clang++ amalgam.cpp -o textunpack.exe -O3 -std=c++17
 ```
 
 次のコマンドでもいいです:
 
 ```bash
-clang++ .\amalgam.cpp -o textunpack.exe -O3 -std=c++17 -fno-exceptions -fno-rtti -march=native
+clang++ amalgam.cpp -o textunpack.exe -O3 -std=c++17 -fno-exceptions -fno-rtti -march=native
 ```
 
 `textunpack` の実行を詳しく追いたい場合は、通常のソースツリーを CMake でビルドしてテストの実行をデバッガで追うといいでしょう。次のコマンドでビルドできます:
