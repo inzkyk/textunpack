@@ -110,12 +110,12 @@ SOFTWARE.
 
 `textunpack` が利用する外部ライブラリは次の通りです:
 
-| ライブラリ名    | URL                                    | ライセンス                              | ライセンスファイルなど                                                                                      |
-|-----------------|----------------------------------------|-----------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| bx              | https://github.com/bkaradzic/bx        | BSD 2-Clause                            | [bx/LICENSE.txt](bx/LICENSE.txt)                                                                            |
-| Microsoft's STL | https://github.com/microsoft/STL       | Apache License v2.0 with LLVM Exception | [Microsoft_STL/LICENSE.txt](Microsoft_STL/LICENSE.txt) [Microsoft_STL/NOTICE.txt](Microsoft_STL/NOTICE.txt) |
-| pdqsort         | https://github.com/orlp/pdqsort        | Zlib                                    | [pdqsort/LICENSE.txt](pdqsort/LICENSE.txt)                                                                  |
-| sokol_time.h    | https://github.com/floooh/sokol        | Zlib                                    | [sokol_time/LICENSE.txt](sokol_time/LICENSE.txt)                                                            |
-| wyhash          | https://github.com/wangyi-fudan/wyhash | The Unlicense                           | [wyhash/LICENSE.txt](wyhash/LICENSE.txt)                                                                    |
+| ライブラリ名    | URL                                    | ライセンス                              | ライセンスファイルなど                                                                      |
+|-----------------|----------------------------------------|-----------------------------------------|---------------------------------------------------------------------------------------------|
+| bx              | https://github.com/bkaradzic/bx        | BSD 2-Clause                            | [LICENSE.txt](./external/bx/LICENSE.txt)                                                    |
+| Microsoft's STL | https://github.com/microsoft/STL       | Apache License v2.0 with LLVM Exception | [LICENSE.txt](./external/Microsoft_STL/LICENSE.txt), [NOTICE.txt](Microsoft_STL/NOTICE.txt) |
+| pdqsort         | https://github.com/orlp/pdqsort        | Zlib                                    | [LICENSE.txt](./external/pdqsort/LICENSE.txt)                                               |
+| sokol_time.h    | https://github.com/floooh/sokol        | Zlib                                    | [LICENSE.txt](./external/sokol_time/LICENSE.txt)                                            |
+| wyhash          | https://github.com/wangyi-fudan/wyhash | The Unlicense                           | [LICENSE.txt](./external/wyhash/LICENSE.txt)                                                |
 
 また、[cpprefjp](https://cpprefjp.github.io/index.html) にて [クリエイティブ・コモンズ 表示 3.0 非移植 ライセンス](https://creativecommons.org/licenses/by/3.0/) で公開されている情報を一部利用しています。
